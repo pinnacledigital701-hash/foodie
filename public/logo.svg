@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" fill="none" aria-label="Foodie Restaurant">
+  <defs>
+    <mask id="foodie-f-mask">
+      <!-- White preserves opacity -->
+      <rect width="320" height="96" fill="white" />
+      
+      <!-- Cloche Knob (cutout) -->
+      <circle cx="52" cy="22" r="3.8" fill="black" />
+      
+      <!-- Cloche Dome (cutout) -->
+      <path d="M36 39 C36 28 43 24 52 24 C61 24 68 28 68 39 Z" fill="black" />
+      
+      <!-- Cloche Platter Tray (cutout) -->
+      <rect x="31" y="40.5" width="44" height="4.5" rx="2.25" fill="black" />
+      
+      <!-- Elegant Swoop Cutout exiting left stem -->
+      <path d="M11 53 C20 53 27 48.5 35 43.5 L35 39 C27 44 19 48.5 11 48.5 Z" fill="black" />
+    </mask>
+  </defs>
+
+  <!-- Stylized F Emblem (Terracotta / Crimson Orange) -->
+  <g mask="url(#foodie-f-mask)">
+    <!-- Upper wing of F -->
+    <path
+      d="M12 48.5 C12 28 22 15 40 15 H74 C84 15 92 21 92 31 C92 40 85 45 76 45 H35 C27 45 20 46.5 12 50 Z"
+      fill="#D13E27"
+    />
+    <!-- Lower stem and middle arm of F -->
+    <path
+      d="M12 53 C21 48 30 45 40 45 H74 C80 45 84 49 84 55 C84 61 80 65 74 65 H37 C34 65 33 66 33 70 V78 C33 82 30 85 26 85 H19 C15 85 12 82 12 78 Z"
+      fill="#D13E27"
+    />
+  </g>
+
+  <!-- FOODIE Wordmark (High-contrast pure vector geometry) -->
+  <g fill="#1A1A1A">
+    <!-- F -->
+    <path d="M114 30 H136 V37.5 H121.5 V45.5 H132.5 V52.5 H121.5 V68 H114 Z" />
+    <!-- O -->
+    <path fill-rule="evenodd" d="M160 30 C170.5 30 179 38.5 179 49 C179 59.5 170.5 68 160 68 C149.5 68 141 59.5 141 49 C141 38.5 149.5 30 160 30 Z M160 37.5 C153.6 37.5 148.5 42.6 148.5 49 C148.5 55.4 153.6 60.5 160 60.5 C166.4 60.5 171.5 55.4 171.5 49 C171.5 42.6 166.4 37.5 160 37.5 Z" />
+    <!-- O -->
+    <path fill-rule="evenodd" d="M204 30 C214.5 30 223 38.5 223 49 C223 59.5 214.5 68 204 68 C193.5 68 185 59.5 185 49 C185 38.5 193.5 30 204 30 Z M204 37.5 C197.6 37.5 192.5 42.6 192.5 49 C192.5 55.4 197.6 60.5 204 60.5 C210.4 60.5 215.5 55.4 215.5 49 C215.5 42.6 210.4 37.5 204 37.5 Z" />
+    <!-- D -->
+    <path fill-rule="evenodd" d="M229 30 H243 C254 30 262.5 38.5 262.5 49 C262.5 59.5 254 68 243 68 H229 Z M236.5 37.5 H243 C249.5 37.5 255 42.6 255 49 C255 55.4 249.5 60.5 243 60.5 H236.5 Z" />
+    <!-- I -->
+    <path d="M269 30 H276.5 V68 H269 Z" />
+    <!-- E -->
+    <path d="M283 30 H305 V37.5 H290.5 V45.5 H301.5 V52.5 H290.5 V60.5 H305 V68 H283 Z" />
+  </g>
+</svg>

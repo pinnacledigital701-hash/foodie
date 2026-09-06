@@ -1,0 +1,6 @@
+{
+  "name": "Foodie Restaurant",
+  "description": "Premium restaurant website featuring artisan dishes, table reservations, online ordering, and chef-curated menus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
